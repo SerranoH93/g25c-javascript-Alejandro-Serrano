@@ -1,0 +1,24 @@
+1. Cual es la diferencia entre un tipo dato primitivo y uno complejo.
+
+	Datos primitivos (char, int, String, boolena, number(int, double)): Los tipos de datos primitivos son tipos de datos básicos que se proporcionan como parte del lenguaje de programación y que no se pueden descomponer en componentes más pequeños
+
+	Datos complejos: Por otro lado, los tipos de datos complejos se refieren a tipos de datos que se pueden descomponer en componentes más pequeños, como estructuras de datos, matrices, listas, diccionarios, etc.
+
+
+2. Como se define un objeto y un arreglo en JS y para que sirve cada uno.
+
+	Un objeto se define mediante la creación de un conjunto de propiedades y métodos dentro de llaves {} con la sintaxis de clave: valor. La clave representa el nombre de la propiedad o método, y el valor representa el valor o la función asignada a esa propiedad o método.
+
+	Un arreglo (o array) en JavaScript es una estructura de datos que permite almacenar una colección de elementos ordenados. Los arreglos se definen utilizando corchetes [] y los elementos se separan por comas.
+
+
+3. Que es let y que es const en javascript.
+
+	let y const son palabras clave utilizadas en JavaScript para declarar variables. Ambas palabras clave se introdujeron en ECMAScript 6 (ES6) como una alternativa a la palabra clave var.
+
+	let se utiliza para declarar variables que pueden ser reasignadas. En otras palabras, las variables declaradas con let pueden tener su valor modificado después de su creación. 
+
+	Por otro lado, const se utiliza para declarar variables que no pueden ser reasignadas después de su creación. 
+
+
+
