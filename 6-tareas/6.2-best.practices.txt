@@ -1,0 +1,29 @@
+1. Que es let y que es const en javascript.
+
+    var: Permite 
+
+
+
+	let y const son palabras clave utilizadas en JavaScript para declarar variables. Ambas palabras clave se introdujeron en ECMAScript 6 (ES6) como una alternativa a la palabra clave var.
+
+	let se utiliza para declarar variables que pueden ser reasignadas. En otras palabras, las variables declaradas con let pueden tener su valor modificado después de su creación. 
+
+	Por otro lado, const se utiliza para declarar variables que no pueden ser reasignadas después de su creación. 
+
+2. Usar comillas dobles ("") o simples ('')?
+
+    Usar las que quieran pero siempre las mismas
+    console.log("Alejandro Serrano");
+    console.log('Alejandro Serrano');
+
+3. Usar punto y coma (;)?
+
+    Usar las que quieran pero siempre las mismas
+    console.log("Alejandro Serrano");
+    console.log('Alejandro Serrano')
+
+
+4. Mejorar sus console.log
+
+5. Nombre de variables
+

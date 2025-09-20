@@ -1,0 +1,14 @@
+body{
+    
+    font-family: 'Orbitron', sans-serif;
+    display: grid;    
+    background-color: #0a9396;
+    justify-content: center;
+   
+}
+
+.titulo_juego{
+    font-family: 'Orbitron', sans-serif;    
+    align-items: center;    
+    font-size: 70px;
+}

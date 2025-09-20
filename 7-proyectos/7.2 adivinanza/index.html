@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> 
+    
+          
+    <title>Juego de adivinanza</title>
+
+</head>
+<body>
+    <div>    
+        <h1 class="titulo_juego">Juego de adivinanza</h1>
+        <p>Intenta adivinar el número entre 1 y 100</p>
+        <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+              <input id="guess" class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+              <label class="mdl-textfield__label" for="sample2">Number...</label>
+              <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+        </form>        
+        <button id="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Adivina</button>                 
+        <p id="feedback"></p>
+        <button id="playAgain" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Reiniciar Juego</button>        
+        <script src="js/index.js"></script>
+    </div>
+</body>
+</html>

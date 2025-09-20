@@ -11,14 +11,32 @@
 
 	Un arreglo (o array) en JavaScript es una estructura de datos que permite almacenar una colección de elementos ordenados. Los arreglos se definen utilizando corchetes [] y los elementos se separan por comas.
 
-
-3. Que es let y que es const en javascript.
-
-	let y const son palabras clave utilizadas en JavaScript para declarar variables. Ambas palabras clave se introdujeron en ECMAScript 6 (ES6) como una alternativa a la palabra clave var.
-
-	let se utiliza para declarar variables que pueden ser reasignadas. En otras palabras, las variables declaradas con let pueden tener su valor modificado después de su creación. 
-
-	Por otro lado, const se utiliza para declarar variables que no pueden ser reasignadas después de su creación. 
+3.Ejercicio practico de arrays y objetos. Dadas las siguientes variables, obtener un console.log, lo que solicita
 
 
+var video = {
+    name: "peaches",
+    author: "jack blaccomments = [
+    "el video es buenardo", // [0]
+    "a mi no me gusto", // [1]
+    "todos somos browser", // [2]
+];
+}
 
+var celular = {
+	brand: "xiaomi",
+	price: 2000,
+	hasStock: true,
+	company: {name: 'Xiaomi company', address: {street: "callesita no.4"}}
+}
+
+var data = [45, 67, 12, { qualifications: [10, 9 , 0] }, false, 23.77 ]
+
+// imprimir el comentario de "a mi no me gusto"
+console.log(video.comments[1]);
+// imprimir la direccion de la compañia de la var celular
+// imprimir si hay piezas disponibles de celular
+// imprimir la segunda calificacion
+// imprimir la penultima posicion del array de data
+// imprimir la marca del celular
+// imprimir el ultimo comentario del video
